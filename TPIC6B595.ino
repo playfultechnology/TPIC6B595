@@ -24,7 +24,7 @@ const uint8_t digitToSegment[] = {
 // Strobe/Latch/RCLK (also sometimes confusingly called "Clock", as in "clocking in") (pin 1) of TPIC6B595
 int strobePin = 10;
 // Ser/Data/SerIn/MOSI (pin 2) of TPIC6B595
-int dataPin = 12;
+int dataPin = 11;
 // Clock/SRCLK Pin connected to Clock (pin 3) of TPIC6B595
 int clockPin = 13;
 
